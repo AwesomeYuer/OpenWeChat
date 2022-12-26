@@ -1,5 +1,10 @@
 ```shell
-# 启动项目
+# Linux 下构建项目
+sh build.sh
+```
+
+```shell
+# 启动运行项目
 go run main.go
 ```
 
