@@ -14,7 +14,7 @@ func main() {
 
 		if msg.IsText() {
 			fmt.Println(msg.Content)
-			msg.ReplyText("pong: " + msg.Content)
+			msg.ReplyText("duang ~: " + msg.Content)
 		}
 
 	}
