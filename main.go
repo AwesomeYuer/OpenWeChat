@@ -38,7 +38,7 @@ func main() {
 
 // QrCodeCallBack 登录扫码回调，
 func QrCodeCallBack(uuid string) {
-	log.Println("login in linux")
+	log.Println("login in")
 	q, _ := qrcode.New("https://login.weixin.qq.com/l/"+uuid, qrcode.Low)
 	fmt.Println(q.ToString(true))
 }
