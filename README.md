@@ -1,4 +1,7 @@
-
+```shell
+# 启动项目
+go run main.go
+```
 
 # openwechat
 

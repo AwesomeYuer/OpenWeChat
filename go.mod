@@ -1,4 +1,4 @@
-module hello
+module OpenWeChatEcho
 
 require (
 	github.com/eatmoreapple/openwechat v1.2.9
