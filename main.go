@@ -14,7 +14,7 @@ func main() {
 
 		if msg.IsText() {
 			fmt.Println(msg.Content)
-			msg.ReplyText("pong:" + msg.Content)
+			msg.ReplyText("pong: " + msg.Content)
 		}
 
 	}
@@ -39,6 +39,6 @@ func main() {
 // QrCodeCallBack 登录扫码回调，
 func QrCodeCallBack(uuid string) {
 	log.Println("login in")
-	q, _ := qrcode.New("https://login.weixin.qq.com/l/"+uuid, qrcode.Low)
+	q, _ := qrcode.New("https://login.weixin.qq.com/l/"+uuid, qrcode.Highest)
 	fmt.Println(q.ToString(true))
 }
