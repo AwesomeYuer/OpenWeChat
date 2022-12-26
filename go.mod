@@ -1,5 +1,5 @@
-module github.com/eatmoreapple/openwechat
+module hello
 
-go 1.15
+require github.com/eatmoreapple/openwechat v1.2.9
 
-
+go 1.19
